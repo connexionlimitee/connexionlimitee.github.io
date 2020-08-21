@@ -1,31 +1,117 @@
+html {
+  background-color: #F3EBD3;
+  min-height: 100%;
+}
+
+#root {
+  background-color: #F3EBD3;
+  min-height: 100%;
+  max-width: 100%;
+}
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #F3EBD3;
 }
 
-.App-link {
-  color: #61dafb;
+.app-page {
+  font-family: "Courier New", Courier, monospace;
+  background-color: #F3EBD3;
+  min-height: 100%;
+  margin: auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  max-width: 90%;
+}
+
+h1, h2 {
+  text-align: center;
+  font-family: "Arial Black", Gadget, sans-serif;
+  width: 100%;
+}
+
+.divider {
+  width: 100%;
+  display: block;
+  border-top: 2px dotted orange;
+  /*height: 2px;*/
+}
+
+.title-section {
+  position: relative;
+  top: 0;
+  left: 0;
+  margin: 0px;
+  border-top: 2px dashed black;
+  border-bottom: 2px dashed black;
+}
+
+.title-text.massive {
+  font-size: calc(96px + 1vw);
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.4em;
+  margin: 0px;
+}
+
+.title-text {
+  max-width: 100%;
+  font-size: calc(48px + 1vw);
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.4em;
+  margin: 0px;
+  overflow-wrap: break-word;
+}
+
+.description {
+  text-align: center;
+  width: 100%;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+
+.all-caps {
+  text-transform: uppercase;
+}
+
+.subtitle-text {
+  margin-bottom: 0.1em;
+}
+
+.two-column {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.spacer {
+  min-width: 10%;
+  display: block;
+}
+
+/* .two-column:first-child {
+  text-align: right;
+}
+
+.two-column:last-child {
+  text-align: left;
+} */
+
+.divider-bottom {
+  border-bottom: 2px dashed black;
+}
+
+.column {
+  width: 45%;
+  text-align: justify;
+}
+
+.inline {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 @keyframes App-logo-spin {
