@@ -1,10 +1,9 @@
 html {
-  background-color: #F3EBD3;
   min-height: 100%;
+  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
 }
 
 #root {
-  background-color: #F3EBD3;
   min-height: 100%;
   max-width: 100%;
 }
@@ -12,13 +11,19 @@ html {
 .App {
   text-align: center;
   align-items: center;
-  background-color: #F3EBD3;
 }
 
 .app-page {
-  font-family: "Courier New", Courier, monospace;
-  background-color: #F3EBD3;
+  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
   min-height: 100%;
+  margin: auto;
+  /* margin-top: 1em; */
+  margin-bottom: 1em;
+  /* max-width: 90%; */
+}
+
+.main {
+  align-items: center;
   margin: auto;
   margin-top: 1em;
   margin-bottom: 1em;
@@ -27,8 +32,37 @@ html {
 
 h1, h2 {
   text-align: center;
-  font-family: "Arial Black", Gadget, sans-serif;
+  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
   width: 100%;
+  /* text-decoration: underline;
+  text-decoration-color: #1b616e; */
+}
+
+#footer {
+  padding: 8px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: #1b616e;
+  color: #F8F4F4;
+  border-bottom: 2px solid black;
+}
+
+#footer a {
+  color: #F8F4F4;
+  text-decoration: underline;
+}
+
+#title-menu {
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #1b616e;
+  color: #F8F4F4;
+  border-bottom: 2px solid black;
 }
 
 .divider {
@@ -38,13 +72,46 @@ h1, h2 {
   /*height: 2px;*/
 }
 
-.title-section {
+/* .title-section {
   position: relative;
   top: 0;
   left: 0;
   margin: 0px;
   border-top: 2px dashed black;
   border-bottom: 2px dashed black;
+} */
+
+#title {
+  padding-top: 1em;
+  background-color: #1b616e;
+  color: #F8F4F4;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#menu {
+  padding: 0px 8px;
+  display: flex;
+  background-color: #1b616e;
+  color: #F8F4F4;
+  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+  font-style: italic;
+  max-width: 100%;
+  align-items: center;
+  min-width: 100%;
+  justify-content: space-between;
+}
+
+#menu a {
+  background-color: #1b616e;
+  color: #F8F4F4;
+  font-size: calc(12px + 2vw);
+}
+
+.curr-page {
+  font-style: italic;
+  text-decoration: underline;
 }
 
 .title-text.massive {
@@ -68,7 +135,6 @@ h1, h2 {
 .description {
   text-align: center;
   width: 100%;
-  font-weight: bold;
   letter-spacing: 0.1em;
 }
 
@@ -104,14 +170,109 @@ h1, h2 {
 }
 
 .column {
+  display: flex;
+  flex-direction: column;
   width: 45%;
   text-align: justify;
+  justify-content: space-between;
+  min-height: 100%;
 }
 
 .inline {
-  display: flex;
+  /* display: flex;
   flex-direction: row;
+  justify-content: space-between; */
+  text-align: center;
+  display: grid;
+  grid-row-gap: 24px;
+  grid-column-gap: 10%;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+}
+
+/* .full-width-head {
+  background-color: #1b616e;
+  color: #F8F4F4;
+  display: flex;
+
   justify-content: space-between;
+} */
+
+.member-bio {
+  padding: 0px;
+  margin: 0px;
+  text-align: justify;
+}
+
+.author-title a {
+  color: black;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.column img {
+  display: block;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-self: center;
+  padding: 8px 0px;
+}
+
+.quote-div {
+  border-radius: 8px;
+  background-color: #1b616e;
+  color: #F8F4F4;
+  padding: 4vw;
+  font-size: 24px;
+  max-width: 30%;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.column .quote-div {
+  max-width: 80%;
+  font-size: 36px;
+}
+
+.quote-div p {
+  margin: 10%;
+}
+
+.column .quote-div p {
+  max-width: 90%;
+  margin: 10%;
+}
+
+.right-align {
+  font-style: italic;
+  text-align: right;
+}
+
+.quote-attribution {
+  font-size: 16px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 884px) {
+  .two-column {
+    flex-direction: column;
+  }
+
+  .column {
+    width: 100%;
+  }
+
+  .inline {
+    flex-direction: column;
+  }
+
+  .quote-div {
+    max-width: 80%;
+  }
 }
 
 @keyframes App-logo-spin {
