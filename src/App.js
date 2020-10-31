@@ -122,7 +122,7 @@ function App() {
         </div>
         <div className="quote-div">
           <p className="left-align">“On se fait une p'tite...pause Linguée?”</p>
-          <p className="right-align">Traduction: “Il nous faut encore de café.”</p>
+          <p className="right-align">Traduction: “Il nous faut encore du café.”</p>
         </div>
         <div className='two-column' id="projects">
           <a className="sr-only sr-only-focusable skip-column" href="#projects-fr">Projets</a>
@@ -219,9 +219,8 @@ function App() {
             </p>
             </span>
             <div className="quote-div">
-              <p className="left-align">“Tu comprends, n'est-ce pas?”</p>
-              <p className="right-align">“Bien sûr que je comprends.”</p>
-              <p className="quote-attribution">- Une carte postale que Léna a envoyé à Shira</p>
+              <p className="left-align">What I am I cannot say.</p>
+              <p className="quote-attribution">- Éleni Sikelianos</p>
             </div>
             <span>
               <h2>If you like what we do, check out...</h2>
@@ -238,7 +237,7 @@ function App() {
         <p><a href="mailto:connexionlimitee@gmail.com">connexionlimitée@gmail.com</a></p>
         <div className='two-column'>
           <div className='column'>
-            <p>C'est Shira qui a écrit ce site. Si vous auriez de questions ou des suggestions pour elle, <a href="https://shiraab.github.io/contact.html">contactez-la.</a></p>
+            <p>Site élaboré par Shira. Pour toute question ou réclamation, voici <a href="https://shiraab.github.io/contact.html">son contact.</a></p>
           </div>
           <div className='column'>
             <p>Shira made this site. If you have any requests or complaints, <a href="https://shiraab.github.io/contact.html">contact her.</a></p>
