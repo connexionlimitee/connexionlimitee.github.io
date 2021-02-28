@@ -20,6 +20,7 @@ function MainPage(props) {
           <a id="skip-contact" className="sr-only sr-only-focusable" href="#footer">Skip to contact</a>
         </span>
         <div id="menu" role="navigation">
+          <a id='switch-lang' href={props.lang == 'en' ? '/fr' : '/en'}>{siteText[props.lang].change_language}</a>
           <a href="#about">{siteText[props.lang].about}</a>
           <a href="#members">{siteText[props.lang].members}</a>
           <a href="#projects">{siteText[props.lang].projects}</a>
