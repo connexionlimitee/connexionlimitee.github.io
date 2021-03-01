@@ -34,6 +34,9 @@ function App() {
               </div>
           }
         </Route>
+        <Route path="/*">
+          <Redirect to='../public/index.html'/>
+        </Route>
       </Switch>
     </BrowserRouter>
   );
