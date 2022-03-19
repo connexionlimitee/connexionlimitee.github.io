@@ -43,9 +43,10 @@ function MainPage(props) {
         </div>
         <div id="latest">
           <h2>{siteText[props.lang].actu}</h2>
-          <p><a href='https://poetesses.hypotheses.org/'>{siteText[props.lang].actu_1}</a></p>
-          <p><a href="https://www.jefklak.org/">{siteText[props.lang].actu_2}</a></p>
-          <p><a href="https://fragile-revue.fr/la-lettre/6-82/">{siteText[props.lang].actu_3}</a></p>
+          <p><a href='https://cipmarseille.fr/evenement_fiche.php?id=1459'>{siteText[props.lang].actu_1}</a></p>
+          <p><a href='https://poetesses.hypotheses.org/'>{siteText[props.lang].actu_2}</a></p>
+          <p><a href="https://www.jefklak.org/">{siteText[props.lang].actu_3}</a></p>
+          <p><a href="https://fragile-revue.fr/la-lettre/6-82/">{siteText[props.lang].actu_4}</a></p>
         </div>
         <div className="quote-div">
           <p>“Language is the seed of possibility.”</p>
