@@ -41,12 +41,21 @@ function MainPage(props) {
               </span>
             </span>
         </div>
+        <div id="splash-announcement">
+          <a href="http://www.jocaseria.fr/Livres/Fiche%20livre/happyend.html"><img src="http://www.jocaseria.fr/Livres/Fiche%20livre/happyend_files/debordements.jpg" alt="Cover of Mónica de la Torre's The Happy End/All Welcome"/></a>
+          <h2>Notre traduction de <i>The Happy End/Bienvenue à Tous</i> <a href="http://www.jocaseria.fr/Livres/Fiche%20livre/happyend.html">paraît chez Joca Seria!</a></h2>
+        </div>
         <div id="latest">
           <h2>{siteText[props.lang].actu}</h2>
-          <p><a href='https://cipmarseille.fr/evenement_fiche.php?id=1459'>{siteText[props.lang].actu_1}</a></p>
-          <p><a href='https://poetesses.hypotheses.org/'>{siteText[props.lang].actu_2}</a></p>
-          <p><a href="https://www.jefklak.org/">{siteText[props.lang].actu_3}</a></p>
-          <p><a href="https://fragile-revue.fr/la-lettre/6-82/">{siteText[props.lang].actu_4}</a></p>
+          <p>{siteText[props.lang].actu_1}</p>
+          <p>{siteText[props.lang].actu_2}</p>
+          <p>{siteText[props.lang].actu_3}</p>
+          <p>{siteText[props.lang].actu_4}</p>
+          <h2>{siteText[props.lang].past}</h2>
+          <p><a href='https://cipmarseille.fr/evenement_fiche.php?id=1459'>{siteText[props.lang].past_1}</a></p>
+          <p><a href='https://poetesses.hypotheses.org/'>{siteText[props.lang].past_2}</a></p>
+          <p><a href="https://www.jefklak.org/">{siteText[props.lang].past_3}</a></p>
+          <p><a href="https://fragile-revue.fr/la-lettre/6-82/">{siteText[props.lang].past_4}</a></p>
         </div>
         <div className="quote-div">
           <p>“Language is the seed of possibility.”</p>
@@ -93,24 +102,25 @@ function MainPage(props) {
           <h2>
             {siteText[props.lang].en_to_fr}
           </h2>
-            <h3>{siteText[props.lang].books}</h3>
-            <h4 className='author-title'>Mόnica de la Torre, <a href="https://uglyducklingpresse.org/publications/the-happy-end-all-welcome/">The Happy End / All Welcome</a></h4>
-            <img src={require("./happy-end-all-welcome.jpg")} alt="Cover of Mónica de la Torre's The Happy End/All Welcome"/>
+          <h3>{siteText[props.lang].pubs}</h3>
+            <h4 className='author-title'>Mόnica de la Torre, <a href="http://www.jocaseria.fr/Livres/Fiche%20livre/happyend.html">The Happy End / All Welcome</a></h4>
+            <img src="http://www.jocaseria.fr/Livres/Fiche%20livre/happyend_files/debordements.jpg" alt="Cover of Mónica de la Torre's The Happy End/All Welcome"/>
             <p>{siteText[props.lang].monica_1}</p>
             <p>{siteText[props.lang].monica_2}</p>
             <p>{siteText[props.lang].monica_3}</p>
             <p>{siteText[props.lang].monica_4}</p>
+            <h4 className='author-title'>Traduction d'Adrienne Rich sur la <a href="https://www.jefklak.org/">Revue Jeff Klak</a></h4>
+            <h4 className='author-title'>Interview sur la <a href="https://fragile-revue.fr/la-lettre/connexion-limitee-limited-connection/">Revue Fragile</a></h4>
+            <h4 className='author-title'>Traduction du poète Chen Chen sur la <a href="https://fragile-revue.fr/la-lettre/didier-et-zizou-par-chen-chen/">Revue Fragile</a></h4>
+            <h4 className='author-title'>Traduction de Mónica de la Torre sur la <a href="https://fragile-revue.fr/la-lettre/6-82/">Revue Fragile</a></h4>
+            <h3>{siteText[props.lang].ongoing_projects}</h3>
             <h4 className='author-title'>Eleni Sikelianos, <a href="https://nightboat.org/book/what-i-knew/">What I Knew</a></h4>
             <img src={require("./what-I-knew.jpg")} alt="Cover of Eleni Sikelianos's What I knew"/>
             <p>{siteText[props.lang].eleni_1}</p>
             <p>{siteText[props.lang].eleni_2}</p>
             <p>{siteText[props.lang].eleni_3}</p>
             <p>{siteText[props.lang].eleni_4}</p>
-            <h3>{siteText[props.lang].pubs}</h3>
-            <h4 className='author-title'>Traduction d'Adrienne Rich sur la <a href="https://www.jefklak.org/">Revue Jeff Klak</a></h4>
-            <h4 className='author-title'>Interview sur la <a href="https://fragile-revue.fr/la-lettre/connexion-limitee-limited-connection/">Revue Fragile</a></h4>
-            <h4 className='author-title'>Traduction du poète Chen Chen sur la <a href="https://fragile-revue.fr/la-lettre/didier-et-zizou-par-chen-chen/">Revue Fragile</a></h4>
-            <h4 className='author-title'>Traduction de Mónica de la Torre sur la <a href="https://fragile-revue.fr/la-lettre/6-82/">Revue Fragile</a></h4>
+            
           </div>
           <div className='column' id="projects-en">
             <span>

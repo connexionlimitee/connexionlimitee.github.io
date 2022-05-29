@@ -399,6 +399,12 @@ span img {
   padding: 24px 0px;
 }
 
+#splash-announcement {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 @media only screen and (max-width: 884px) {
   .splash-span {
     flex-direction: column-reverse;
