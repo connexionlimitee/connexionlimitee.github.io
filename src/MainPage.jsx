@@ -43,7 +43,7 @@ function MainPage(props) {
         </div>
         <div id="splash-announcement">
           <a href="http://www.jocaseria.fr/Livres/Fiche%20livre/happyend.html"><img src="http://www.jocaseria.fr/Livres/Fiche%20livre/happyend_files/debordements.jpg" alt="Cover of Mónica de la Torre's The Happy End/All Welcome"/></a>
-          <h2>Notre traduction de <i>The Happy End/Bienvenue à Tous</i> <a href="http://www.jocaseria.fr/Livres/Fiche%20livre/happyend.html">paraît chez Joca Seria!</a></h2>
+          <h2>Notre traduction de <i>The Happy End/Bienvenue à tous</i> <a href="http://www.jocaseria.fr/Livres/Fiche%20livre/happyend.html">paraît chez Joca Seria!</a></h2>
         </div>
         <div id="latest">
           <h2>{siteText[props.lang].actu}</h2>
@@ -109,7 +109,7 @@ function MainPage(props) {
             <p>{siteText[props.lang].monica_2}</p>
             <p>{siteText[props.lang].monica_3}</p>
             <p>{siteText[props.lang].monica_4}</p>
-            <h4 className='author-title'>Traduction d'Adrienne Rich sur la <a href="https://www.jefklak.org/">Revue Jeff Klak</a></h4>
+            <h4 className='author-title'>Traduction d'Adrienne Rich sur la <a href="https://www.jefklak.org/">Revue Jef Klak</a></h4>
             <h4 className='author-title'>Interview sur la <a href="https://fragile-revue.fr/la-lettre/connexion-limitee-limited-connection/">Revue Fragile</a></h4>
             <h4 className='author-title'>Traduction du poète Chen Chen sur la <a href="https://fragile-revue.fr/la-lettre/didier-et-zizou-par-chen-chen/">Revue Fragile</a></h4>
             <h4 className='author-title'>Traduction de Mónica de la Torre sur la <a href="https://fragile-revue.fr/la-lettre/6-82/">Revue Fragile</a></h4>
@@ -142,7 +142,7 @@ function MainPage(props) {
             <span>
               <h2>{siteText[props.lang].nos_amis}</h2>
               <h4 className='author-title'><a href="http://revuepointdechute.fr/">Revue Point de Chute</a></h4>
-              <h4 className='author-title'><a href="https://www.jefklak.org/">Revue Jeff Klak</a></h4>
+              <h4 className='author-title'><a href="https://www.jefklak.org/">Revue Jef Klak</a></h4>
               <h4 className='author-title'><a href="https://fragile-revue.fr/">Revue Fragile</a></h4>
               <h4 className='author-title'><a href="https://quarantine-university.tumblr.com/">Poems from a University Quarantine</a></h4>
               <h4 className='author-title'><a href="https://doublechange.org/">Double Change</a></h4>
