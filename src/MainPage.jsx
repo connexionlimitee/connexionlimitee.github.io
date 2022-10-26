@@ -42,15 +42,15 @@ function MainPage(props) {
             </span>
         </div>
         <div id="splash-announcement">
-          <a href="http://www.jocaseria.fr/Livres/Fiche%20livre/happyend.html"><img src="http://www.jocaseria.fr/Livres/Fiche%20livre/happyend_files/debordements.jpg" alt="Cover of Mónica de la Torre's The Happy End/All Welcome"/></a>
+          <a href="http://www.jocaseria.fr/Livres/Fiche%20livre/happyend_files/happy%20end.jpg"><img src="http://www.jocaseria.fr/Livres/Fiche%20livre/happyend_files/debordements.jpg" alt="Cover of Mónica de la Torre's The Happy End/All Welcome"/></a>
           <h2>Notre traduction de <i>The Happy End/Bienvenue à tous</i> <a href="http://www.jocaseria.fr/Livres/Fiche%20livre/happyend.html">paraît chez Joca Seria!</a></h2>
         </div>
         <div id="latest">
           <h2>{siteText[props.lang].actu}</h2>
-          <p>{siteText[props.lang].actu_1}</p>
-          <p>{siteText[props.lang].actu_2}</p>
+          <p><a href={"https://www.asymptotejournal.com/poetry/the-hand-of-the-hand-laura-vazquez/"}>{siteText[props.lang].actu_1}</a></p>
+          {/* <p>{siteText[props.lang].actu_2}</p>
           <p>{siteText[props.lang].actu_3}</p>
-          <p>{siteText[props.lang].actu_4}</p>
+          <p>{siteText[props.lang].actu_4}</p> */}
           <h2>{siteText[props.lang].past}</h2>
           <p><a href='https://cipmarseille.fr/evenement_fiche.php?id=1459'>{siteText[props.lang].past_1}</a></p>
           <p><a href='https://poetesses.hypotheses.org/'>{siteText[props.lang].past_2}</a></p>
