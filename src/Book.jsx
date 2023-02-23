@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import booksText from "./booksText";
 
-const Book = ({ book, lang }) => {
+const Book = ({ book, lang, reviewsTitle }) => {
   const {
     title,
     author,
@@ -12,6 +12,7 @@ const Book = ({ book, lang }) => {
     cover_image_url,
     order_url,
     original_year,
+    reviews,
   } = book;
   return (
     <span>
@@ -28,6 +29,12 @@ const Book = ({ book, lang }) => {
       <h4>{author}</h4>
       <p>{`${translation_publisher}, ${translation_year}`}</p>
       <p>{`${booksText[lang].originally_published_by} ${original_publisher}, ${original_year}`}</p>
+      <h4>{reviewsTitle}</h4>
+      {reviews.map((review) => (
+        <p>
+          <a href={review.url}>{review.text}</a>
+        </p>
+      ))}
     </span>
   );
 };

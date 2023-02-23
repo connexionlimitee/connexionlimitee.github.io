@@ -7,11 +7,11 @@ import Book from "./Book";
 const Books = ({ lang }) => {
   const text = booksText[lang];
   return (
-    <div id="books">
+    <div id="books" className="section">
       <h2>{text.title}</h2>
       <span className="inline">
         {text.books.map((book) => (
-          <Book book={book} lang={lang} />
+          <Book book={book} lang={lang} reviewsTitle={text.reviews_title} />
         ))}
       </span>
     </div>

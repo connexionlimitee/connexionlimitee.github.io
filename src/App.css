@@ -133,6 +133,10 @@ p {
   background-color: #F8F4F4;
 }
 
+.section {
+  margin: "64px 0px";
+}
+
 .spacer-span {
   display: flex;
   align-items: center;
