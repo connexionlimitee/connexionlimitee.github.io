@@ -16,6 +16,10 @@ const booksText = {
         original_year: "2019",
         reviews: [
           {
+            text: "Adrien Meignan, La vie sans principe",
+            url: "https://laviesansprincipe.wordpress.com/2023/04/07/ce-que-jai-connu-eleni-sikelianos/",
+          },
+          {
             text: "Pierre Vinclair, Sitaudis",
             url: "https://www.sitaudis.fr/Parutions/eleni-sikelianos-ce-que-j-ai-connu-1673498430.php",
           },
@@ -68,6 +72,10 @@ const booksText = {
         order_url: "https://editionslusage.fr/livres/ce-que-jai-connu/",
         original_year: "2019",
         reviews: [
+          {
+            text: "Adrien Meignan, La vie sans principe",
+            url: "https://laviesansprincipe.wordpress.com/2023/04/07/ce-que-jai-connu-eleni-sikelianos/",
+          },
           {
             text: "Pierre Vinclair, Sitaudis",
             url: "https://www.sitaudis.fr/Parutions/eleni-sikelianos-ce-que-j-ai-connu-1673498430.php",
