@@ -3,6 +3,10 @@ const latestText = {
     actu: "Latest",
     actu_events: [
       {
+        text: "May 15, 2023: Workshop by Lénaïg Cariou at Centre Bloch Berlin on translating gender with Adrienne Rich",
+        url: "https://cmb.hu-berlin.de/en/calendar/event/elise-huchet-forum-marc-bloch-politiques-de-la-traduction",
+      },
+      {
         text: "March 2023: Interview with Limited Connection Collective (fr)",
         url: "https://laviesansprincipe.wordpress.com/2023/03/08/interview-avec-le-collectif-connexion-limitee-limited-connection/",
       },
@@ -44,7 +48,11 @@ const latestText = {
     actu: "Actualité",
     actu_events: [
       {
-        text: "March 2023: Interview avec le collectif Connexion Limitée / Limited Connection",
+        text: "15 mai 2023: Atelier mené par Lénaïg Cariou au Centre Bloch Berlin sur le sujet « Traduire le genre avec Adrienne Rich »",
+        url: "https://cmb.hu-berlin.de/en/calendar/event/elise-huchet-forum-marc-bloch-politiques-de-la-traduction",
+      },
+      {
+        text: "Mars 2023: Interview avec le collectif Connexion Limitée / Limited Connection",
         url: "https://laviesansprincipe.wordpress.com/2023/03/08/interview-avec-le-collectif-connexion-limitee-limited-connection/",
       },
       {
