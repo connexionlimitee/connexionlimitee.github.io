@@ -18,9 +18,14 @@ const Members = ({ lang }) => {
             <p>{siteText[lang].camille_bio}</p>
           </div>
           <div className="member-bio">
+            <h4>Sidney Cadot-Sambosi</h4>
+            <p>{siteText[lang].sidney_bio}</p>
+          </div>
+          <div className="member-bio">
             <h4>Lénaïg Cariou</h4>
             <p>{siteText[lang].lena_bio}</p>
           </div>
+
         </span>
       </span>
       <h2>{siteText[lang].past_members}</h2>

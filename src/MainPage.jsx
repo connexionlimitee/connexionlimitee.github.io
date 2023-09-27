@@ -9,6 +9,7 @@ import Books from "./Books";
 import Members from "./Members";
 import Friends from "./Friends";
 import Projects from "./Projects";
+import Splash from "./Splash";
 
 function MainPage({ lang }) {
   return (
@@ -17,6 +18,7 @@ function MainPage({ lang }) {
       <div className="main">
         <About lang={lang} />
         <Books lang={lang} />
+        <Splash/>
         <Latest lang={lang} />
         <div className="quote-div">
           <p>“Language is the seed of possibility.”</p>
