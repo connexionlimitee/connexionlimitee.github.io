@@ -13,11 +13,12 @@ const siteText = {
     presentation:
       "Limited Connection Collective/Connexion Limitée is a transatlantic translation collective founded in 2019 out of a desire to open contemporary US-American poetics to the French literary scene and vice-versa. Currently, the collective is based both in Paris and in Providence, RI, comprising two American and two French poets. All four members have lived in both countries, and all have their own art and literary practices. One of the collective’s primary goals is to translate underrepresented poets in literary translation, and to work in conversation with the poets they translate. They have translated works by poets such as Mónica de la Torre and Eleni Sikelianos into French; Laura Vasquez’s The Hand of the Hand is their first translation from French to English. The name, Limited Connection, comes from a translation residency in rural Normandy, where cell service was extremely limited. Even after returning to city life, the name stuck, reflecting the members’ belief in translation as a form of limited connection, and in the possibility of creating symbiotic worlds and communities.",
     actu: "Latest",
-    actu_1:
-      "Saturday, March 25th, 6:30pm - Reading by Eleni Sikelianos and her translators at Librairie EXC, in Paris",
+    actu_1: "Friday, October 13th - Reading with Laura Vazquez at Les Inaccoutumes festival, presented by La Ménagerie de Verre",
     actu_2:
-      "Thursday, March 30th - Reading and Q&A with Eleni Sikelianos and Lénaïg Cariou at Festival Littérature au Centre, in Clermont-Ferrand",
+      "Saturday, March 25th, 6:30pm - Reading by Eleni Sikelianos and her translators at Librairie EXC, in Paris",
     actu_3:
+      "Thursday, March 30th - Reading and Q&A with Eleni Sikelianos and Lénaïg Cariou at Festival Littérature au Centre, in Clermont-Ferrand",
+    actu_4:
       "Fall 2022: Our translation of four poems by Laura Vazquez appear in the latest issue of Asymptote!",
     actu_1_5:
       'June 3, 2022, 3:30pm-6pm, Maire du 5e, Paris: Reading by Cole Swensen and Lénaïg Cariou, excerpt of "Art in Time" that Camille and Lénaïg are translating',
@@ -25,7 +26,7 @@ const siteText = {
       "June 7, 2022, 7pm, Atelier Michael Woolworth, Paris (organized with Double Change): Reading by Camille Blanc, Lénaïg Cariou, and Mónica de la Torre for the publication of our translation of The Happy End/All Welcome at Éditions Joca Seria",
     actu_3_5:
       "June 10, 2022, Maison de Poésie de Montpellier: Experimental Translation Workshop with Camille Blanc, Lénaïg Cariou and Mónica de la Torre",
-    actu_4:
+    actu_5:
       "June 14th, 2022, Galérie Zoëme, Marseille: Reading by Mónica de la Torre, Camille Blanc, and Lénaïg Cariou",
     past: "Past events",
     past_1:
@@ -97,11 +98,12 @@ const siteText = {
     presentation:
       "Le collectif Connexion Limitée / Limited Connection est né d’une rencontre transatlantique entre Providence (Etats-Unis) et Paris (France) en septembre 2019, d’un désir commun de quatre jeunes poètes de contribuer à ouvrir le champ poétique étatsunien ultra-contemporain à la France et réciproquement. Nous sommes deux français.e.s et deux américain.e.s, qui tou.te.s ont vécu dans l’autre pays, et étudié l’art et la littérature. Nous représentons des identités raciales et sexuelles diverses. Des valeurs nous rassemblent, au-delà de notre passion commune pour la poésie et le travail de la langue ; parmi elles, l’attention particulière à faire connaître par nos traductions des poètes qui, pour des raisons économiques ou politiques, nous paraissent moins bien visibilisé.e.s par le monde éditorial. Nous avons également soin de travailler en accord et en dialogue avec les auteur.rices que nous avons choisi de traduire. La dimension collective de nos traductions est au coeur de notre projet, puisqu’elle donne lieu à une traduction enrichie par nos savoirs et expériences divers.",
     actu: "Actualité",
-    actu_1:
-      "Samedi 25 mars, 18h30 - Lecture d'Eleni Sikelianos et de ses traductrices à la librairie EXC, à Paris",
+    actu_1: "Vendredi 13 octobre – Lecture avec Laura Vazquez au festival Les Inaccoutumes, presenté par La Ménagerie de Verre",
     actu_2:
-      "Jeudi 30 mars - Lecture et entretien d'Eleni Sikelianos et Lénaïg Cariou au Festival Littérature au Centre, à Clermont-Ferrand",
+      "Samedi 25 mars, 18h30 - Lecture d'Eleni Sikelianos et de ses traductrices à la librairie EXC, à Paris",
     actu_3:
+      "Jeudi 30 mars - Lecture et entretien d'Eleni Sikelianos et Lénaïg Cariou au Festival Littérature au Centre, à Clermont-Ferrand",
+    actu_4:
       "Automne 2022: Nos traductions de quatre poèmes de Laura Vazquez dans la revue Asymptote!",
     actu_1_5:
       '3 juin 2022, 15h30-18hpm, Maire du 5e, Paris: Lecture de Cole Swensen and Lénaïg Cariou, extraits de "Art in Time" que Camille and Lénaïg sont en train de traduire',
@@ -109,7 +111,7 @@ const siteText = {
       "7 juin 2022, 19h, Atelier Michael Woolworth, Paris (organisé avec Double Change): Lecture de Camille Blanc, Lénaïg Cariou, and Mónica de la Torre pour la publication de notre traduction de The Happy End/All Welcome chez Éditions Joca Seria",
     actu_3_5:
       "10 juin 2022, Maison de Poésie de Montpellier: Lecture et workshop de traduction expérimentale, Monica de la Torre, Camille Blanc et Lénaïg Cariou, à l'occasion de la sortie du livre",
-    actu_4:
+    actu_5:
       "14 juin 2022, Galérie Zoëme, Marseille: Lecture de Monica de la Torre, Camille Blanc et Lénaïg Cariou à l'occasion de la sortie du livre",
     past: "Évènements passés",
     past_1:

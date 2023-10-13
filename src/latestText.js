@@ -3,6 +3,10 @@ const latestText = {
     actu: "Latest",
     actu_events: [
       {
+        text: "Friday, October 13th: Reading with Laura Vazquez at Les Inaccoutumes festival, presented by La Ménagerie de Verre",
+        url: "https://menageriedeverre.com/files/cp-inaccoutumes.pdf",
+      },
+      {
         text: "May 15, 2023: Workshop by Lénaïg Cariou at Centre Bloch Berlin on translating gender with Adrienne Rich",
         url: "https://cmb.hu-berlin.de/en/calendar/event/elise-huchet-forum-marc-bloch-politiques-de-la-traduction",
       },
@@ -47,6 +51,10 @@ const latestText = {
   fr: {
     actu: "Actualité",
     actu_events: [
+      {
+        text: "Vendredi 13 octobre: Lecture avec Laura Vazquez au festival Les Inaccoutumes, presenté par La Ménagerie de Verre",
+        url: "https://menageriedeverre.com/files/cp-inaccoutumes.pdf",
+      },
       {
         text: "15 mai 2023: Atelier mené par Lénaïg Cariou au Centre Bloch Berlin sur le sujet « Traduire le genre avec Adrienne Rich »",
         url: "https://cmb.hu-berlin.de/en/calendar/event/elise-huchet-forum-marc-bloch-politiques-de-la-traduction",
