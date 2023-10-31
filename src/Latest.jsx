@@ -12,9 +12,9 @@ const Latest = ({ lang }) => {
   return (
     <div id="latest" className="section">
       <h2>{latestText[lang].actu}</h2>
-      {latestText[lang].actu_events.map(renderLinkItem)}
+      {latestText[lang].events.slice(0, 2).map(renderLinkItem)}
       <h2>{latestText[lang].past}</h2>
-      {latestText[lang].past_events.map(renderLinkItem)}
+      {latestText[lang].events.slice(2, 6).map(renderLinkItem)}
     </div>
   );
 };

@@ -12,33 +12,6 @@ const siteText = {
     presentation_title: "French-American literary translation collective",
     presentation:
       "Limited Connection Collective/Connexion Limitée is a transatlantic translation collective founded in 2019 out of a desire to open contemporary US-American poetics to the French literary scene and vice-versa. Currently, the collective is based both in Paris and in Providence, RI, comprising two American and two French poets. All four members have lived in both countries, and all have their own art and literary practices. One of the collective’s primary goals is to translate underrepresented poets in literary translation, and to work in conversation with the poets they translate. They have translated works by poets such as Mónica de la Torre and Eleni Sikelianos into French; Laura Vasquez’s The Hand of the Hand is their first translation from French to English. The name, Limited Connection, comes from a translation residency in rural Normandy, where cell service was extremely limited. Even after returning to city life, the name stuck, reflecting the members’ belief in translation as a form of limited connection, and in the possibility of creating symbiotic worlds and communities.",
-    actu: "Latest",
-    actu_1: "Friday, October 13th - Reading with Laura Vazquez at Les Inaccoutumes festival, presented by La Ménagerie de Verre",
-    actu_2:
-      "Saturday, March 25th, 6:30pm - Reading by Eleni Sikelianos and her translators at Librairie EXC, in Paris",
-    actu_3:
-      "Thursday, March 30th - Reading and Q&A with Eleni Sikelianos and Lénaïg Cariou at Festival Littérature au Centre, in Clermont-Ferrand",
-    actu_4:
-      "Fall 2022: Our translation of four poems by Laura Vazquez appear in the latest issue of Asymptote!",
-    actu_1_5:
-      'June 3, 2022, 3:30pm-6pm, Maire du 5e, Paris: Reading by Cole Swensen and Lénaïg Cariou, excerpt of "Art in Time" that Camille and Lénaïg are translating',
-    actu_2_5:
-      "June 7, 2022, 7pm, Atelier Michael Woolworth, Paris (organized with Double Change): Reading by Camille Blanc, Lénaïg Cariou, and Mónica de la Torre for the publication of our translation of The Happy End/All Welcome at Éditions Joca Seria",
-    actu_3_5:
-      "June 10, 2022, Maison de Poésie de Montpellier: Experimental Translation Workshop with Camille Blanc, Lénaïg Cariou and Mónica de la Torre",
-    actu_5:
-      "June 14th, 2022, Galérie Zoëme, Marseille: Reading by Mónica de la Torre, Camille Blanc, and Lénaïg Cariou",
-    past: "Past events",
-    past_1:
-      "Friday, January 27, 2023 - Book launch of Ce que j'ai connu, our translation of What I knew by Eleni Sikelianos, at L'Atelier, in Paris: reading and Q&A with the translators",
-    past_2:
-      "March 19, 2022: Camille Blanc and Lénaïg Cariou read with Jean-François Puff and Sylvain Prudhomme at the Centre International de Poésie Marseille",
-    past_3:
-      'April 7, 2021: Our very own Lénaïg Cariou is among the organizers of the conference "Femmes poètes, poètes femmes, poétesses… questions de terminologie" at the Séminaire de l’Université de Chicago',
-    past_4:
-      "January 2021: Translation of Adrienne Rich's 'The Burning of Paper Instead of Children' appears in Revue Jef Klak",
-    past_5:
-      "November 2020: Translation of Mónica de la Torre's '$6.82' appears in Revue Fragile",
     translators: "The Translators",
     shira_bio:
       "Shira Abramovich was born in Boston, and received her first book in French at the age of three. Her English-language work has appeared in Crashtest, Polyphony HS and The Adroit Journal, among others, and has been recognized by the Claudia Ann Seaman and Edwin M. Honig Memorial Awards. She is a student and Fulbright Scholar at McGill University, where she works across languages, spoken and computational. She is very happy with her first name.",
@@ -52,7 +25,6 @@ const siteText = {
       "Nadia Wolff is a Haitian-American artist, designer, and writer. Their work spans diverse media such as installations, textiles, performance art, lithography, and poetics, exploring queer/black/Caribbean embodiment, aesthetics, and histories through intimacy. Currently, they are a student in the Brown-RISD dual-degree program, studying textiles and literary arts. Their first solo exhibition was at the Bay Parc complex in Miami; they have also exhibited work at Art Basel in Miami, Franklin Street Works, the Granoff Center for the Creative Arts, the RISD Museum, the Ori Art Gallery in Portland, the Rubell Family Collection, the National YoungArts Foundation, and the John F. Kennedy Center in Washington, DC.",
     en_to_fr: "English to French",
     fr_to_en: "French to English",
-    books: "Books",
     pubs: "Publications",
     monica_1:
       "Our desire to translate Mónica de la Torre's work arose from a chance encounter in New York. This translation, constructed during the fall of 2019, was a collaborative effort both between us as members of the collective and with the poet herself.",
@@ -97,33 +69,6 @@ const siteText = {
     presentation_title: "Collectif de traduction littéraire Franco-Américain",
     presentation:
       "Le collectif Connexion Limitée / Limited Connection est né d’une rencontre transatlantique entre Providence (Etats-Unis) et Paris (France) en septembre 2019, d’un désir commun de quatre jeunes poètes de contribuer à ouvrir le champ poétique étatsunien ultra-contemporain à la France et réciproquement. Nous sommes deux français.e.s et deux américain.e.s, qui tou.te.s ont vécu dans l’autre pays, et étudié l’art et la littérature. Nous représentons des identités raciales et sexuelles diverses. Des valeurs nous rassemblent, au-delà de notre passion commune pour la poésie et le travail de la langue ; parmi elles, l’attention particulière à faire connaître par nos traductions des poètes qui, pour des raisons économiques ou politiques, nous paraissent moins bien visibilisé.e.s par le monde éditorial. Nous avons également soin de travailler en accord et en dialogue avec les auteur.rices que nous avons choisi de traduire. La dimension collective de nos traductions est au coeur de notre projet, puisqu’elle donne lieu à une traduction enrichie par nos savoirs et expériences divers.",
-    actu: "Actualité",
-    actu_1: "Vendredi 13 octobre – Lecture avec Laura Vazquez au festival Les Inaccoutumes, presenté par La Ménagerie de Verre",
-    actu_2:
-      "Samedi 25 mars, 18h30 - Lecture d'Eleni Sikelianos et de ses traductrices à la librairie EXC, à Paris",
-    actu_3:
-      "Jeudi 30 mars - Lecture et entretien d'Eleni Sikelianos et Lénaïg Cariou au Festival Littérature au Centre, à Clermont-Ferrand",
-    actu_4:
-      "Automne 2022: Nos traductions de quatre poèmes de Laura Vazquez dans la revue Asymptote!",
-    actu_1_5:
-      '3 juin 2022, 15h30-18hpm, Maire du 5e, Paris: Lecture de Cole Swensen and Lénaïg Cariou, extraits de "Art in Time" que Camille and Lénaïg sont en train de traduire',
-    actu_2_5:
-      "7 juin 2022, 19h, Atelier Michael Woolworth, Paris (organisé avec Double Change): Lecture de Camille Blanc, Lénaïg Cariou, and Mónica de la Torre pour la publication de notre traduction de The Happy End/All Welcome chez Éditions Joca Seria",
-    actu_3_5:
-      "10 juin 2022, Maison de Poésie de Montpellier: Lecture et workshop de traduction expérimentale, Monica de la Torre, Camille Blanc et Lénaïg Cariou, à l'occasion de la sortie du livre",
-    actu_5:
-      "14 juin 2022, Galérie Zoëme, Marseille: Lecture de Monica de la Torre, Camille Blanc et Lénaïg Cariou à l'occasion de la sortie du livre",
-    past: "Évènements passés",
-    past_1:
-      "Vendredi 27 janvier 2023, 20h - Soirée de lancement de Ce que j'ai connu d'Eleni Sikelianos à la librairie L'Atelier, à Paris: lecture et entretien avec les traductrices",
-    past_2:
-      "19 Mars 2022: Camille Blanc et Lénaïg Cariou participent à une rencontre-lecture au Centre International de Poésie Marseille",
-    past_3:
-      "7 Avril 2021: Lénaïg Cariou organise la conférence « Femmes poètes, poètes femmes, poétesses… questions de terminologie » au Séminaire de l’Université de Chicago",
-    past_4:
-      "Janvier 2021: Notre traduction de 'Brûler du papier plutôt que des enfants' d'Adrienne Rich dans la Revue Jef Klak",
-    past_5:
-      "Décembre 2020: Notre traduction à contraintes de '$6.82' de Mónica de la Torre dans la Revue Fragile",
     translators: "Les Traducteur.trices",
     shira_bio:
       "Shira reçoit son premier livre en français à l'âge de trois mois, lors d’un voyage en France. Ses poèmes en anglais ont été publiés dans les revues littéraires Crashtest, Polyphony HS et The Adroit Journal. Son oeuvre poétique a également reçu les prix Claudia Ann Seaman et Edwin M. Honig. Elle est actuellement étudiante à l’Université McGill, où elle étudie l’intersection entre les langues, les langages écrits, et l’informatique. Elle est très satisfaite de son prénom, qui signifie “poésie” en hébreu !",
@@ -137,7 +82,6 @@ const siteText = {
       "Nadia est une artiste, designer, et écrivain.e haïtien.ne-américain.e. L’oeuvre de Nadia – qui prend des formes aussi diverses que des installations, des oeuvres textiles, des performances artistiques, de la lithographie, et des interventions poétiques – explore l’esthétique, l’histoire, et l’incarnation queer/noires/caribéennes à travers le prisme de l’intimité. Nadia vit à Providence (Rhode Island) où elle étudie le design textile à la Rhode Island School of Design et la création à l’université de Brown. La première exposition en solo de Nadia s’est produite au Bay Parc de Miami ; ses oeuvres ont aussi été exposées lors de l’Art Basel de Miami ; au Franklin Street Works ; au Granoff Center for the Creative Arts ; au RISD Museum ; à l’Ori Art Gallery à Portland ; à la Rubell Family Collection et à la National YoungArts Foundation à Miami ; et au John F. Kennedy Center à Washington, D.C.",
     en_to_fr: "Traductions de l'anglais en français",
     fr_to_en: "Traductions du français en anglais",
-    books: "Livres",
     pubs: "Publications",
     monica_1:
       "C’est une rencontre avec Mónica de la Torre à New York qui a donné naissance au désir de traduire son oeuvre. Notre traduction s’est construite collectivement et en dialogue avec la poète au cours de l’automne 2019.",

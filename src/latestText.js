@@ -1,7 +1,11 @@
 const latestText = {
   en: {
     actu: "Latest",
-    actu_events: [
+    past: "Past events",
+    events: [
+      {
+        text: "Monday, November 6th: Workshop by Shira Abramovich at Simmons College"
+      },
       {
         text: "Friday, October 13th: Reading with Laura Vazquez at Les Inaccoutumes festival, presented by La Ménagerie de Verre",
         url: "https://menageriedeverre.com/files/cp-inaccoutumes.pdf",
@@ -18,9 +22,6 @@ const latestText = {
         text: "Fall 2022: Our translation of four poems by Laura Vazquez appear in the latest issue of Asymptote!",
         url: "https://www.asymptotejournal.com/poetry/the-hand-of-the-hand-laura-vazquez/",
       },
-    ],
-    past: "Past events",
-    past_events: [
       {
         text: "Thursday, March 30th - Reading and Q&A with Eleni Sikelianos and Lénaïg Cariou at Festival Littérature au Centre, in Clermont-Ferrand",
       },
@@ -50,7 +51,11 @@ const latestText = {
   },
   fr: {
     actu: "Actualité",
-    actu_events: [
+    past: "Évènements passés",
+    events: [
+      {
+        text: "Lundi 6 novembre: Atelier de traduction avec Shira Abramovich à Simmons College"
+      },
       {
         text: "Vendredi 13 octobre: Lecture avec Laura Vazquez au festival Les Inaccoutumes, presenté par La Ménagerie de Verre",
         url: "https://menageriedeverre.com/files/cp-inaccoutumes.pdf",
@@ -67,9 +72,6 @@ const latestText = {
         text: "Automne 2022: Nos traductions de quatre poèmes de Laura Vazquez dans la revue Asymptote!",
         url: "https://www.asymptotejournal.com/poetry/the-hand-of-the-hand-laura-vazquez/",
       },
-    ],
-    past: "Évènements passés",
-    past_events: [
       {
         text: "Jeudi 30 mars - Lecture et entretien d'Eleni Sikelianos et Lénaïg Cariou au Festival Littérature au Centre, à Clermont-Ferrand",
       },

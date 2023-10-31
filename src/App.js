@@ -4,7 +4,7 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import MainPage from "./MainPage.jsx";
 
-function App() {
+const App = () => {
   let lang = navigator.language;
   if (lang.length > 2) {
     lang = lang.slice(0, 2);

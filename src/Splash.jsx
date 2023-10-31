@@ -8,9 +8,11 @@ const Splash = ({ lang }) => {
       <span className="splash-span">
         <iframe
           title="Lecture avec Mónica de la Torre"
-          width="600"
-          height="350"
-          src="https://www.youtube.com/watch?v=2lZZnmC3iR4"
+          width="560" height="315"
+          src="https://www.youtube.com/embed/2lZZnmC3iR4?si=K2ysOMTZ5RR9SFOZ"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
           style={{"margin": "auto"}}
         />
       </span>
