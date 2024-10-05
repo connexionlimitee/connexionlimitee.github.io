@@ -29,12 +29,15 @@ const Book = ({ book, lang, reviewsTitle }) => {
       <h4>{author}</h4>
       <p>{`${translation_publisher}, ${translation_year}`}</p>
       <p>{`${booksText[lang].originally_published_by} ${original_publisher}, ${original_year}`}</p>
-      <h4>{reviewsTitle}</h4>
-      {reviews.map((review) => (
-        <p>
-          <a href={review.url}>{review.text}</a>
-        </p>
-      ))}
+      {reviews?.length &&
+      <>
+        <h4>{reviewsTitle}</h4>
+        {reviews.map((review) => (
+          <p>
+            <a href={review.url}>{review.text}</a>
+          </p>
+        ))}
+      </>}
     </span>
   );
 };

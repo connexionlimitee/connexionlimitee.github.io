@@ -5,6 +5,28 @@ const booksText = {
     reviews_title: "Reviews",
     books: [
       {
+        title: "The Hand of the Hand",
+        author: "Laura Vazquez",
+        translation_publisher: "Ugly Duckling Presse",
+        translation_year: "2025",
+        original_publisher: "Cheyne Éditeur",
+        cover_image_url:
+          "https://globaluserfiles.com/media/108961_3ebf0072c2e66ced883fa39d7e761ff42c9f5033.jpeg/v1/w_800,h_0,dpr_2/la-main-de-la-main.webp",
+        order_url: "https://uglyducklingpresse.org/",
+        original_year: "2014",
+      },
+      {
+        title: "The Dream of a Common Language",
+        author: "Adrienne Rich",
+        translation_publisher: "L'Arche",
+        translation_year: "2025",
+        original_publisher: "W. W. Norton & Co.",
+        cover_image_url:
+          "https://cdn2.wwnorton.com/wwnproducts/TRADE/8/0/9780393346008/9780393346008_300.jpeg",
+        order_url: "https://www.arche-editeur.com/",
+        original_year: "1978",
+      },
+      {
         title: "What I Knew",
         author: "Eleni Sikelianos",
         translation_publisher: "L'Usage",
@@ -61,6 +83,28 @@ const booksText = {
     originally_published_by: "Édition originale publiée par",
     reviews_title: "Critiques",
     books: [
+      {
+        title: "La Main de la main",
+        author: "Laura Vazquez",
+        translation_publisher: "Ugly Duckling Presse",
+        translation_year: "2025",
+        original_publisher: "Cheyne Éditeur",
+        cover_image_url:
+          "https://globaluserfiles.com/media/108961_3ebf0072c2e66ced883fa39d7e761ff42c9f5033.jpeg/v1/w_800,h_0,dpr_2/la-main-de-la-main.webp",
+        order_url: "https://uglyducklingpresse.org/",
+        original_year: "2014",
+      },
+      {
+        title: "Le Rêve d'un Langage Commun",
+        author: "Adrienne Rich",
+        translation_publisher: "L'Arche",
+        translation_year: "2025",
+        original_publisher: "W. W. Norton & Co.",
+        cover_image_url:
+          "https://cdn2.wwnorton.com/wwnproducts/TRADE/8/0/9780393346008/9780393346008_300.jpeg",
+        order_url: "https://www.arche-editeur.com/",
+        original_year: "1978",
+      },
       {
         title: "Ce que j'ai connu",
         author: "Eleni Sikelianos",
