@@ -45,7 +45,7 @@ function MainPage({ lang }) {
         <h3>{siteText[lang].contact}</h3>
         <p>
           <a href="mailto:connexionlimitee@gmail.com">
-            connexionlimitée@gmail.com
+            connexionlimitee@gmail.com
           </a>
         </p>
         <div>
