@@ -6,7 +6,6 @@ import latestText from "./latestText";
 
 const renderLinkItem = (item) => {
   const { text, url } = item;
-  console.log(text ? <p>{url ? <a href={url}>{text}</a> : text}</p> : null)
   return text ? <p>{url ? <a href={url}>{text}</a> : text}</p> : null;
 };
 
