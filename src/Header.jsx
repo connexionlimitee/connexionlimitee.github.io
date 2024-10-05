@@ -12,7 +12,7 @@ const Header = ({ lang }) => {
       </span>
       <span id="title-menu">
         <span className="spacer-span">
-          <a id="skip-nav" className="sr-only sr-only-focusable" href="#about">
+          {/* <a id="skip-nav" className="sr-only sr-only-focusable" href="#about">
             Skip to description
           </a>
           <a
@@ -35,17 +35,12 @@ const Header = ({ lang }) => {
             href="#footer"
           >
             Skip to contact
-          </a>
+          </a> */}
         </span>
         <div id="menu" role="navigation">
           <Link id="switch-lang" to={lang === "en" ? "/fr" : "/en"}>
             {siteText[lang].change_language}
           </Link>
-          <a href="#about">{siteText[lang].about}</a>
-          <a href="#books">{siteText[lang].books}</a>
-          <a href="#members">{siteText[lang].members}</a>
-          <a href="#projects">{siteText[lang].projects}</a>
-          <a href="#footer">{siteText[lang].contact}</a>
         </div>
       </span>
     </div>
