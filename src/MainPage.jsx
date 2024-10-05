@@ -17,8 +17,9 @@ function MainPage({ lang }) {
       <Header lang={lang} />
       <div className="main">
         <About lang={lang} />
+        <Splash option="adrienne_audio" lang={lang}/>
         <Books lang={lang} />
-        <Splash/>
+        <Splash lang={lang}/>
         <Latest lang={lang} />
         <div className="quote-div">
           <p>“Language is the seed of possibility.”</p>
