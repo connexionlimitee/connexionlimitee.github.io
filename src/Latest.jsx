@@ -1,18 +1,21 @@
 import React from "react";
+import _ from "lodash";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import latestText from "./latestText";
 
 const renderLinkItem = (item) => {
   const { text, url } = item;
-  return <p>{url ? <a href={url}>{text}</a> : text}</p>;
+  console.log(text ? <p>{url ? <a href={url}>{text}</a> : text}</p> : null)
+  return text ? <p>{url ? <a href={url}>{text}</a> : text}</p> : null;
 };
 
 const Latest = ({ lang }) => {
+  const latestEvents = latestText[lang].events.slice(0, 2);
   return (
     <div id="latest" className="section">
-      <h2>{latestText[lang].actu}</h2>
-      {latestText[lang].events.slice(0, 2).map(renderLinkItem)}
+      {(latestEvents.filter(item => !_.isEmpty(item)).length) ? <h2>{latestText[lang].actu}</h2> : null}
+      {latestEvents.map(renderLinkItem)}
       <h2>{latestText[lang].past}</h2>
       {latestText[lang].events.slice(2, 6).map(renderLinkItem)}
     </div>

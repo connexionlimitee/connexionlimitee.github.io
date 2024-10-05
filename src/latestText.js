@@ -3,6 +3,8 @@ const latestText = {
     actu: "Latest",
     past: "Past events",
     events: [
+      {},
+      {},
       {
         text: "Monday, November 6th: Workshop by Shira Abramovich at Simmons College"
       },
@@ -53,6 +55,8 @@ const latestText = {
     actu: "Actualité",
     past: "Évènements passés",
     events: [
+      {},
+      {},
       {
         text: "Lundi 6 novembre: Atelier de traduction avec Shira Abramovich à Simmons College"
       },
