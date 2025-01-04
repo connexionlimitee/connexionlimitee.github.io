@@ -2,13 +2,14 @@ const booksText = {
   en: {
     title: "Books",
     originally_published_by: "Originally published by",
-    reviews_title: "Reviews",
+    reviews_title: "Media",
     books: [
       {
         title: "The Hand of the Hand",
         author: "Laura Vazquez",
         translation_publisher: "Ugly Duckling Presse",
         translation_year: "2025",
+        pub_date: "2025-05-02",
         original_publisher: "Cheyne Éditeur",
         cover_image_url:
           "https://globaluserfiles.com/media/108961_3ebf0072c2e66ced883fa39d7e761ff42c9f5033.jpeg/v1/w_800,h_0,dpr_2/la-main-de-la-main.webp",
@@ -20,11 +21,18 @@ const booksText = {
         author: "Adrienne Rich",
         translation_publisher: "L'Arche",
         translation_year: "2025",
+        pub_date: "2025-01-15",
         original_publisher: "W. W. Norton & Co.",
         cover_image_url:
-          "https://cdn2.wwnorton.com/wwnproducts/TRADE/8/0/9780393346008/9780393346008_300.jpeg",
-        order_url: "https://www.arche-editeur.com/",
+          "https://www.arche-editeur.com/storage/app/uploads/public/134/604/98f/thumb__320_500_0_0_auto.jpg",
+        order_url: "https://www.arche-editeur.com/livre/le-reve-dun-langage-commun-747",
         original_year: "1978",
+        reviews: [
+          {
+            text: "Preview in revue Cunni Lingus",
+            url: "https://qunnilingus.wixsite.com/cnnlngs/adrienne-rich",
+          }
+        ]
       },
       {
         title: "What I Knew",
@@ -81,7 +89,7 @@ const booksText = {
   fr: {
     title: "Livres",
     originally_published_by: "Édition originale publiée par",
-    reviews_title: "Critiques",
+    reviews_title: "Critiques & Médias",
     books: [
       {
         title: "La Main de la main",
@@ -101,9 +109,15 @@ const booksText = {
         translation_year: "2025",
         original_publisher: "W. W. Norton & Co.",
         cover_image_url:
-          "https://cdn2.wwnorton.com/wwnproducts/TRADE/8/0/9780393346008/9780393346008_300.jpeg",
-        order_url: "https://www.arche-editeur.com/",
+          "https://www.arche-editeur.com/storage/app/uploads/public/134/604/98f/thumb__320_500_0_0_auto.jpg",
+        order_url: "https://www.arche-editeur.com/livre/le-reve-dun-langage-commun-747",
         original_year: "1978",
+        reviews: [
+          {
+            text: "Extraits en avant-première dans la revue Cunni Lingus",
+            url: "https://qunnilingus.wixsite.com/cnnlngs/adrienne-rich",
+          }
+        ]
       },
       {
         title: "Ce que j'ai connu",

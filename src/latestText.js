@@ -3,8 +3,9 @@ const latestText = {
     actu: "Latest",
     past: "Past events",
     events: [
-      {},
-      {},
+      { text: "January 22,2025: Event for Le Rêve d'un langage commun at the Université Grenoble Alpes library"},
+      { text: "January 24, 2025: Reading event: \"Nos matrimoines : écrivaines états-uniennes\", Librairie les Modernes, Grenoble"},
+      { text: "May 2, 2025: Readings from The Hand of the Hand at Ugly Duckling Presse Spring Group Launch"},
       {
         text: "Monday, November 6th: Workshop by Shira Abramovich at Simmons College"
       },
@@ -55,8 +56,9 @@ const latestText = {
     actu: "Actualité",
     past: "Évènements passés",
     events: [
-      {},
-      {},
+      { text: "22 janvier 2025 : Rencontre autour du Rêve d'un langage commun à la BU de l'Université Grenoble Alpes"},
+      { text: "24 janvier 2025 : Nuit de la lecture : \"Nos matrimoines : écrivaines états-uniennes\", Librairie les Modernes, Grenoble"},
+      { text: "2 mai 2025: Lancément de La Main de la main en groupe chez Ugly Duckling Presse"},
       {
         text: "Lundi 6 novembre: Atelier de traduction avec Shira Abramovich à Simmons College"
       },

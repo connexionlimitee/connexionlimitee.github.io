@@ -11,32 +11,7 @@ const Header = ({ lang }) => {
         <h1>Connexion Limitée // Limited Connection</h1>
       </span>
       <span id="title-menu">
-        <span className="spacer-span">
-          {/* <a id="skip-nav" className="sr-only sr-only-focusable" href="#about">
-            Skip to description
-          </a>
-          <a
-            id="skip-members"
-            className="sr-only sr-only-focusable"
-            href="#members"
-          >
-            Skip to members
-          </a>
-          <a
-            id="skip-proj"
-            className="sr-only sr-only-focusable"
-            href="#projects"
-          >
-            Skip to projects
-          </a>
-          <a
-            id="skip-contact"
-            className="sr-only sr-only-focusable"
-            href="#footer"
-          >
-            Skip to contact
-          </a> */}
-        </span>
+        <span className="spacer-span"/>
         <div id="menu" role="navigation">
           <Link id="switch-lang" to={lang === "en" ? "/fr" : "/en"}>
             {siteText[lang].change_language}

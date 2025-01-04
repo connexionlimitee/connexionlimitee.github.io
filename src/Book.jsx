@@ -8,6 +8,7 @@ const Book = ({ book, lang, reviewsTitle }) => {
     author,
     translation_publisher,
     translation_year,
+    pub_date,
     original_publisher,
     cover_image_url,
     order_url,
