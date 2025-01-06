@@ -1,7 +1,11 @@
 const booksText = {
+
   en: {
     title: "Books",
     originally_published_by: "Originally published by",
+    out_now: "Out now",
+    new_release: "New release!",
+    coming_soon: "Coming soon!",
     reviews_title: "Media",
     books: [
       {
@@ -29,10 +33,26 @@ const booksText = {
         original_year: "1978",
         reviews: [
           {
-            text: "Preview in revue Cunni Lingus",
+            text: "Preview on AOC Média",
+            url: "https://aoc.media/fiction/2025/01/04/le-reve-dun-langage-commun/",
+          },
+          {
+            text: "Preview in Revue Cunni Lingus",
             url: "https://qunnilingus.wixsite.com/cnnlngs/adrienne-rich",
           }
         ]
+      },
+      {
+        title: "Elegy Department Spring: Candy Sonnets 1",
+        author: "Kay Gabriel",
+        translation_publisher: "How to Become",
+        translation_year: "2025",
+        pub_date: "2025-02-15",
+        original_publisher: "BOAAT Press",
+        cover_image_url:
+          "/assets/candy_sonnets.png",
+        order_url: "",
+        original_year: "2017",
       },
       {
         title: "What I Knew",
@@ -89,7 +109,10 @@ const booksText = {
   fr: {
     title: "Livres",
     originally_published_by: "Édition originale publiée par",
-    reviews_title: "Critiques & Médias",
+    out_now: "Maintenant en librairie",
+    coming_soon: "Bientôt en librairie",
+    new_release: "Nouveauté !",
+    reviews_title: "Presse",
     books: [
       {
         title: "La Main de la main",
@@ -97,6 +120,7 @@ const booksText = {
         translation_publisher: "Ugly Duckling Presse",
         translation_year: "2025",
         original_publisher: "Cheyne Éditeur",
+        pub_date: "2025-05-02",
         cover_image_url:
           "https://globaluserfiles.com/media/108961_3ebf0072c2e66ced883fa39d7e761ff42c9f5033.jpeg/v1/w_800,h_0,dpr_2/la-main-de-la-main.webp",
         order_url: "https://uglyducklingpresse.org/",
@@ -108,16 +132,32 @@ const booksText = {
         translation_publisher: "L'Arche",
         translation_year: "2025",
         original_publisher: "W. W. Norton & Co.",
+        pub_date: "2025-01-15",
         cover_image_url:
           "https://www.arche-editeur.com/storage/app/uploads/public/134/604/98f/thumb__320_500_0_0_auto.jpg",
         order_url: "https://www.arche-editeur.com/livre/le-reve-dun-langage-commun-747",
         original_year: "1978",
         reviews: [
           {
+            text: "Extraits en avant-première sur AOC Média",
+            url: "https://aoc.media/fiction/2025/01/04/le-reve-dun-langage-commun/",
+          },
+          {
             text: "Extraits en avant-première dans la revue Cunni Lingus",
             url: "https://qunnilingus.wixsite.com/cnnlngs/adrienne-rich",
           }
         ]
+      },
+      {
+        title: "Printemps Rayon Elégie. Sonnets pour Candy",
+        author: "Kay Gabriel",
+        translation_publisher: "How to Become",
+        translation_year: "2025",
+        pub_date: "2025-02-15",
+        original_publisher: "BOAAT Press",
+        cover_image_url:
+          "/assets/candy_sonnets.png",
+        original_year: "2017",
       },
       {
         title: "Ce que j'ai connu",

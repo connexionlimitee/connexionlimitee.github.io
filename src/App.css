@@ -263,14 +263,6 @@ span img {
   display: block;
 }
 
-/* .two-column:first-child {
-  text-align: right;
-}
-
-.two-column:last-child {
-  text-align: left;
-} */
-
 .divider-bottom {
   border-bottom: 2px dashed black;
 }
@@ -294,14 +286,6 @@ span img {
   grid-column-gap: 10%;
   grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
 }
-
-/* .full-width-head {
-  background-color: #1b616e;
-  color: #F8F4F4;
-  display: flex;
-
-  justify-content: space-between;
-} */
 
 .member-bio {
   padding: 0px;
@@ -413,8 +397,29 @@ span img {
   align-items: center;
 }
 
+.book-container {
+  position: relative;
+}
+
 .book-image {
   height: 20vw;
+}
+
+.pill-container {
+  position: absolute;
+  right: 40px;
+  top: -20px;
+  color: #F8F4F4;
+  padding: 4px 8px;
+  border-radius: 12px;
+}
+
+.pill-container.red {
+  background-color: darkred;
+}
+
+.pill-container.teal {
+  background-color: #1b616e;
 }
 
 @media only screen and (max-width: 884px) {

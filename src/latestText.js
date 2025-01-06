@@ -3,8 +3,12 @@ const latestText = {
     actu: "Latest",
     past: "Past events",
     events: [
-      { text: "January 22,2025: Event for Le Rêve d'un langage commun at the Université Grenoble Alpes library"},
+      { text: "January 15, 2025: Publication of Le Rêve d'un langage commun, our translation of The Dream of a Common Language by Adrienne Rich, with L'Arche Éditeur"},
+
+      { text: "January 22, 2025: Event for Le Rêve d'un langage commun at the Université Grenoble Alpes library"},
       { text: "January 24, 2025: Reading event: \"Nos matrimoines : écrivaines états-uniennes\", Librairie les Modernes, Grenoble"},
+      { text: "February 2025: Publication of Printemps Rayon Elégie. Sonnets pour Candy., our translation of Elegy Department Spring: Candy Sonnets 1 by Kay Gabriel, with Éditions How to Become"},
+      { text: "May 1, 2025: Publication of The Hand of the Hand, our translation of La Main de la main by Laura Vazquez, with Ugly Duckling Presse"},
       { text: "May 2, 2025: Readings from The Hand of the Hand at Ugly Duckling Presse Spring Group Launch"},
       {
         text: "Monday, November 6th: Workshop by Shira Abramovich at Simmons College"
@@ -56,9 +60,12 @@ const latestText = {
     actu: "Actualité",
     past: "Évènements passés",
     events: [
+      { text: '15 janvier 2025: Sortie du Rêve d\'un langage commun, notre traduction de The Dream of a Common Language d\'Adrienne Rich, chez L\'Arche Éditeur'},
       { text: "22 janvier 2025 : Rencontre autour du Rêve d'un langage commun à la BU de l'Université Grenoble Alpes"},
       { text: "24 janvier 2025 : Nuit de la lecture : \"Nos matrimoines : écrivaines états-uniennes\", Librairie les Modernes, Grenoble"},
-      { text: "2 mai 2025: Lancément de La Main de la main en groupe chez Ugly Duckling Presse"},
+      { text: "Février 2025: Parution de Printemps Rayon Elégie. Sonnets pour Candy., notre traduction de Elegy Department Spring: Candy Sonnets 1 by Kay Gabriel, chez How to Become"},
+      { text: "1 mai 2025: Parution de The Hand of the Hand, notre traduction de La Main de la main de Laura Vazquez, chez Ugly Duckling Presse"},
+      { text: "2 mai 2025: Lectures et lancement pour The Hand of the Hand en groupe chez Ugly Duckling Presse"},
       {
         text: "Lundi 6 novembre: Atelier de traduction avec Shira Abramovich à Simmons College"
       },
