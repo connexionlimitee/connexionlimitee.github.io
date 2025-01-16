@@ -33,6 +33,10 @@ const booksText = {
         original_year: "1978",
         reviews: [
           {
+            text: "Review on Maze Média",
+            url: "https://maze.fr/2025/01/le-reve-dun-langage-commun-recueil-amoureux/",
+          },
+          {
             text: "Preview on AOC Média",
             url: "https://aoc.media/fiction/2025/01/04/le-reve-dun-langage-commun/",
           },
@@ -138,6 +142,10 @@ const booksText = {
         order_url: "https://www.arche-editeur.com/livre/le-reve-dun-langage-commun-747",
         original_year: "1978",
         reviews: [
+          {
+            text: "Article sur Maze Média",
+            url: "https://maze.fr/2025/01/le-reve-dun-langage-commun-recueil-amoureux/",
+          },
           {
             text: "Extraits en avant-première sur AOC Média",
             url: "https://aoc.media/fiction/2025/01/04/le-reve-dun-langage-commun/",
