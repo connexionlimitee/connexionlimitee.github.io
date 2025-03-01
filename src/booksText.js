@@ -33,6 +33,18 @@ const booksText = {
         original_year: "1978",
         reviews: [
           {
+            text: "Review in Le Monde",
+            url: "https://www.lemonde.fr/livres/article/2025/02/10/le-reve-d-un-langage-commun-l-intime-tres-politique-d-adrienne-rich_6539727_3260.html",
+          },
+          {
+            text: "Feature on Le Book Club podcast (France Culture)",
+            url: "https://www.radiofrance.fr/franceculture/podcasts/le-book-club/la-poesie-d-adrienne-rich-en-vers-et-contre-tous-7220363"
+          },
+          {
+            text: "Review in Libération",
+            url: "https://www.liberation.fr/culture/livres/le-reve-dun-langage-commun-un-recueil-au-feminin-pluriel-dadrienne-rich-20250221_UJR6HQJ2PFEOLMOO5FGBMEH2BE/"
+          },
+          {
             text: "Review on Maze Média",
             url: "https://maze.fr/2025/01/le-reve-dun-langage-commun-recueil-amoureux/",
           },
@@ -142,6 +154,18 @@ const booksText = {
         order_url: "https://www.arche-editeur.com/livre/le-reve-dun-langage-commun-747",
         original_year: "1978",
         reviews: [
+          {
+            text: "Article dans Le Monde",
+            url: "https://www.lemonde.fr/livres/article/2025/02/10/le-reve-d-un-langage-commun-l-intime-tres-politique-d-adrienne-rich_6539727_3260.html",
+          },
+          {
+            text: "Émission Le Book Club de France Culture: avec Lénaïg Cariou et Claire Star Finch",
+            url: "https://www.radiofrance.fr/franceculture/podcasts/le-book-club/la-poesie-d-adrienne-rich-en-vers-et-contre-tous-7220363"
+          },
+          {
+            text: "Article dans Libération",
+            url: "https://www.liberation.fr/culture/livres/le-reve-dun-langage-commun-un-recueil-au-feminin-pluriel-dadrienne-rich-20250221_UJR6HQJ2PFEOLMOO5FGBMEH2BE/"
+          },
           {
             text: "Article sur Maze Média",
             url: "https://maze.fr/2025/01/le-reve-dun-langage-commun-recueil-amoureux/",
