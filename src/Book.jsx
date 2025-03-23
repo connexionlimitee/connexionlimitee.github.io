@@ -41,7 +41,8 @@ const Book = ({ book, lang }) => {
           <p className="red">{`Coming ${parsed_pub_date.toLocaleString('default', { month: 'long' })} ${translation_year} from ${translation_publisher}`}</p>
           : <p className="red">{`Sortie en ${parsed_pub_date.toLocaleString('fr', { month: 'long' })} ${translation_year} chez ${translation_publisher}`}</p>
         : time_diff_in_hours < 4380 ? <p className="red">{booksText[lang].new_release}</p> :
-        <p>{`${translation_publisher}, ${translation_year}`}</p>}
+        <></>}
+        <p>{`${translation_publisher}, ${translation_year}`}</p>
       <p>{`${booksText[lang].originally_published_by} ${original_publisher}, ${original_year}`}</p>
       {reviews?.length &&
       <>

@@ -15,9 +15,8 @@ const booksText = {
         translation_year: "2025",
         pub_date: "2025-05-02",
         original_publisher: "Cheyne Éditeur",
-        cover_image_url:
-          "https://globaluserfiles.com/media/108961_3ebf0072c2e66ced883fa39d7e761ff42c9f5033.jpeg/v1/w_800,h_0,dpr_2/la-main-de-la-main.webp",
-        order_url: "https://uglyducklingpresse.org/",
+        cover_image_url: "https://uglyducklingpresse.org/wp-content/uploads/2025/01/The-Hand-of-the-Hand_screenshot-731x1024.png",
+        order_url: "https://uglyducklingpresse.org/publications/the-hand-of-the-hand/",
         original_year: "2014",
       },
       {
@@ -39,6 +38,14 @@ const booksText = {
           {
             text: "Feature on Le Book Club podcast (France Culture)",
             url: "https://www.radiofrance.fr/franceculture/podcasts/le-book-club/la-poesie-d-adrienne-rich-en-vers-et-contre-tous-7220363"
+          },
+          {
+            text: "Review in Têtu",
+            url: "https://tetu.com/2025/03/11/adrienne-rich-la-poetesse-qui-revait-dun-langage-lesbien/",
+          },
+          {
+            text: "Review in Télérama",
+            url: "https://www.telerama.fr/livre/le-reve-d-un-langage-commun-le-coming-out-poetique-d-adrienne-rich_cri-7037355.php",
           },
           {
             text: "Review in Libération",
@@ -66,8 +73,8 @@ const booksText = {
         pub_date: "2025-02-15",
         original_publisher: "BOAAT Press",
         cover_image_url:
-          "/assets/candy_sonnets.png",
-        order_url: "",
+          "https://www.editions-howtobecome.com/wp-content/uploads/2025/03/Printemps-rayon-elegie-detoure-2-1276x1536.jpg",
+        order_url: "https://www.editions-howtobecome.com/index.php/produit/printemps-rayon-elegie-kay-gabriel-traduction-connexion-limitee/",
         original_year: "2017",
       },
       {
@@ -125,7 +132,7 @@ const booksText = {
   fr: {
     title: "Livres",
     originally_published_by: "Édition originale publiée par",
-    out_now: "Maintenant en librairie",
+    out_now: "En librairie",
     coming_soon: "Bientôt en librairie",
     new_release: "Nouveauté !",
     reviews_title: "Presse",
@@ -137,9 +144,8 @@ const booksText = {
         translation_year: "2025",
         original_publisher: "Cheyne Éditeur",
         pub_date: "2025-05-02",
-        cover_image_url:
-          "https://globaluserfiles.com/media/108961_3ebf0072c2e66ced883fa39d7e761ff42c9f5033.jpeg/v1/w_800,h_0,dpr_2/la-main-de-la-main.webp",
-        order_url: "https://uglyducklingpresse.org/",
+        cover_image_url: "https://uglyducklingpresse.org/wp-content/uploads/2025/01/The-Hand-of-the-Hand_screenshot-731x1024.png",
+        order_url: "https://uglyducklingpresse.org/publications/the-hand-of-the-hand/",
         original_year: "2014",
       },
       {
@@ -161,6 +167,14 @@ const booksText = {
           {
             text: "Émission Le Book Club de France Culture: avec Lénaïg Cariou et Claire Star Finch",
             url: "https://www.radiofrance.fr/franceculture/podcasts/le-book-club/la-poesie-d-adrienne-rich-en-vers-et-contre-tous-7220363"
+          },
+          {
+            text: "Article dans Têtu",
+            url: "https://tetu.com/2025/03/11/adrienne-rich-la-poetesse-qui-revait-dun-langage-lesbien/",
+          },
+          {
+            text: "Article dans Télérama",
+            url: "https://www.telerama.fr/livre/le-reve-d-un-langage-commun-le-coming-out-poetique-d-adrienne-rich_cri-7037355.php",
           },
           {
             text: "Article dans Libération",
@@ -188,7 +202,8 @@ const booksText = {
         pub_date: "2025-02-15",
         original_publisher: "BOAAT Press",
         cover_image_url:
-          "/assets/candy_sonnets.png",
+          "https://www.editions-howtobecome.com/wp-content/uploads/2025/03/Printemps-rayon-elegie-detoure-2-1276x1536.jpg",
+        order_url: "https://www.editions-howtobecome.com/index.php/produit/printemps-rayon-elegie-kay-gabriel-traduction-connexion-limitee/",
         original_year: "2017",
       },
       {
