@@ -10,13 +10,13 @@ const renderLinkItem = (item) => {
 };
 
 const Latest = ({ lang }) => {
-  const latestEvents = latestText[lang].events.slice(0, 4).toReversed();
+  const latestEvents = latestText[lang].events.slice(0, 6).toReversed();
   return (
     <div id="latest" className="section">
       {(latestEvents.filter(item => !_.isEmpty(item)).length) ? <h2>{latestText[lang].actu}</h2> : null}
       {latestEvents.map(renderLinkItem)}
       <h2>{latestText[lang].past}</h2>
-      {latestText[lang].events.slice(4, 10).map(renderLinkItem)}
+      {latestText[lang].events.slice(6, 10).map(renderLinkItem)}
     </div>
   );
 };
