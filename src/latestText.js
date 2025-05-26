@@ -3,6 +3,7 @@ const latestText = {
     actu: "Latest & Upcoming",
     past: "Past events",
     events: [
+      { text: "May 29, 2025, 6pm: Montréal launch for The Hand of The Hand, Reading and Q&A with Shira Abramovich (Librairie L'Euguélionne, Montréal)"},
       { text: "May 3, 2025, 8pm: Reading with Shira Abramovich and Aiden Farrell (Molasses Books, Brooklyn)"},
       { text: "May 2, 2025, 7pm: Readings from The Hand of the Hand at Ugly Duckling Presse Spring Group Launch (The Old American Can Factory, Gowanus)",
         url: "https://shop.uglyducklingpresse.org/products/udp-spring-studio-party-macaisa-colgate-nissan-abramovich-schluter-ulmer-rees",
@@ -69,6 +70,7 @@ const latestText = {
     actu: "Actualité",
     past: "Évènements passés",
     events: [
+      { text: "29 mai, 2025, 18h: Lancement à Montréal pour The Hand of The Hand avec Shira Abramovich (Librairie L'Euguélionne, Montréal)"},
       { text: "3 mai 2025, 20h : Lecture avec Shira Abramovich et Aiden Farrell (Molasses Books, Brooklyn)"},
       { text: "2 mai 2025, 19h : Lectures et lancement pour The Hand of the Hand en groupe chez Ugly Duckling Presse (The Old American Can Factory, Gowanus)",
         url: "https://shop.uglyducklingpresse.org/products/udp-spring-studio-party-macaisa-colgate-nissan-abramovich-schluter-ulmer-rees"
