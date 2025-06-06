@@ -32,6 +32,10 @@ const booksText = {
         original_year: "1978",
         reviews: [
           {
+            text: "Interview with Lénaïg Cariou in Vogue France",
+            url: "https://www.vogue.fr/article/qui-est-adrienne-rich-livres-contrainte-heterosexualite-feminisme",
+          },
+          {
             text: "Review in Le Monde",
             url: "https://www.lemonde.fr/livres/article/2025/02/10/le-reve-d-un-langage-commun-l-intime-tres-politique-d-adrienne-rich_6539727_3260.html",
           },
@@ -160,6 +164,10 @@ const booksText = {
         order_url: "https://www.arche-editeur.com/livre/le-reve-dun-langage-commun-747",
         original_year: "1978",
         reviews: [
+          {
+            text: "Entretien avec Lénaïg Cariou dans Vogue France",
+            url: "https://www.vogue.fr/article/qui-est-adrienne-rich-livres-contrainte-heterosexualite-feminisme",
+          },
           {
             text: "Article dans Le Monde",
             url: "https://www.lemonde.fr/livres/article/2025/02/10/le-reve-d-un-langage-commun-l-intime-tres-politique-d-adrienne-rich_6539727_3260.html",
