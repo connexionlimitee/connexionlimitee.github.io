@@ -3,6 +3,13 @@ const latestText = {
     actu: "Latest & Upcoming",
     past: "Past events",
     events: [
+      { text: "December 1, 2025: virtual reading and Q&A with Shira Abramovich and Alex Niemi, translators of Laura Vazquez, hosted by Type Books in Toronto"},
+      { text: "September 21, 2025: panel on Collaborative Translation at Poetik Bazar Bruxelles",
+        url: "https://www.poetikbazar.be/en/edition-2025/programme/rencontre-traduire-a-plusieurs-mains"
+      },
+      { text: "September 19, 2025: workshop on Queering Translation at Poetik Bazar Bruxelles",
+        url: "https://www.poetikbazar.be/en/edition-2025/programme/atelier-queering-translation-pour-une-traduction-trans-poly-phonique"
+      },
       { text: "May 29, 2025, 6pm: Montréal launch for The Hand of The Hand, Reading and Q&A with Shira Abramovich (Librairie L'Euguélionne, Montréal)"},
       { text: "May 3, 2025, 8pm: Reading with Shira Abramovich and Aiden Farrell (Molasses Books, Brooklyn)"},
       { text: "May 2, 2025, 7pm: Readings from The Hand of the Hand at Ugly Duckling Presse Spring Group Launch (The Old American Can Factory, Gowanus)",
@@ -70,6 +77,13 @@ const latestText = {
     actu: "Actualité",
     past: "Évènements passés",
     events: [
+      { text: "1 décembre, 2025 : lecture-rencontre virtuelle (animé par les libraires de Type Books à Toronto) avec Shira Abramovich et Alex Niemi, traductrices de Laura Vazquez"},
+      { text: "21 séptembre 2025 : rencontre Traduire à plusieurs mains à Poetik Bazar Bruxelles",
+        url: "https://www.poetikbazar.be/fr/edition-2025/programme/rencontre-traduire-a-plusieurs-mains"
+      },
+      { text: "19 séptembre 2025 : atelier Queering Translation à Poetik Bazar Bruxelles",
+        url: "https://www.poetikbazar.be/fr/edition-2025/programme/atelier-queering-translation-pour-une-traduction-trans-poly-phonique"
+      },
       { text: "29 mai, 2025, 18h: Lancement à Montréal pour The Hand of The Hand avec Shira Abramovich (Librairie L'Euguélionne, Montréal)"},
       { text: "3 mai 2025, 20h : Lecture avec Shira Abramovich et Aiden Farrell (Molasses Books, Brooklyn)"},
       { text: "2 mai 2025, 19h : Lectures et lancement pour The Hand of the Hand en groupe chez Ugly Duckling Presse (The Old American Can Factory, Gowanus)",

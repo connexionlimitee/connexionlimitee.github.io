@@ -15,9 +15,15 @@ const booksText = {
         translation_year: "2025",
         pub_date: "2025-05-02",
         original_publisher: "Cheyne Éditeur",
-        cover_image_url: "https://uglyducklingpresse.org/wp-content/uploads/2025/01/The-Hand-of-the-Hand_screenshot-731x1024.png",
-        order_url: "https://uglyducklingpresse.org/publications/the-hand-of-the-hand/",
+        cover_image_url: "https://uglyducklingpresse.org/wp-content/uploads/2025/03/The-Hand-of-the-Hand_screenshot-600x841.png",
+        order_url: "https://uglyducklingpresse.org/product/the-hand-of-the-hand/",
         original_year: "2014",
+        reviews: [
+          {
+            text: "The Hand of the Hand is the winner of the Québec Writers' Federation Cole Foundation Prize for Translation",
+            url: "https://qwf.org/prize/le-prix-de-traduction-de-la-fondation-cole-the-cole-foundation-prize-for-translation/",
+          },
+        ]
       },
       {
         title: "The Dream of a Common Language",
@@ -148,9 +154,15 @@ const booksText = {
         translation_year: "2025",
         original_publisher: "Cheyne Éditeur",
         pub_date: "2025-05-02",
-        cover_image_url: "https://uglyducklingpresse.org/wp-content/uploads/2025/01/The-Hand-of-the-Hand_screenshot-731x1024.png",
-        order_url: "https://uglyducklingpresse.org/publications/the-hand-of-the-hand/",
+        cover_image_url: "https://uglyducklingpresse.org/wp-content/uploads/2025/03/The-Hand-of-the-Hand_screenshot-600x841.png",
+        order_url: "https://uglyducklingpresse.org/product/the-hand-of-the-hand/",
         original_year: "2014",
+        reviews: [
+          {
+            text: "The Hand of the Hand a gagné le prix du fondation Cole",
+            url: "https://qwf.org/prize/le-prix-de-traduction-de-la-fondation-cole-the-cole-foundation-prize-for-translation/",
+          },
+        ]
       },
       {
         title: "Le Rêve d'un Langage Commun",

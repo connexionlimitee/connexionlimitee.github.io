@@ -16,7 +16,7 @@ const Latest = ({ lang }) => {
       {(latestEvents.filter(item => !_.isEmpty(item)).length) ? <h2>{latestText[lang].actu}</h2> : null}
       {latestEvents.map(renderLinkItem)}
       <h2>{latestText[lang].past}</h2>
-      {latestText[lang].events.slice(2, 10).map(renderLinkItem)}
+      {latestText[lang].events.slice(1, 10).map(renderLinkItem)}
     </div>
   );
 };
